@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="baloonsState.cs" />
-    <Compile Include="GameState.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Telerik.PoppingBaloons\baloonsState.cs" />
+    <Compile Include="Telerik.PoppingBaloons\GameState.cs" />
+    <Compile Include="Telerik.PoppingBaloons\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="Telerik.PoppingBaloons\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
