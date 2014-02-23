@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Telerik.PoppingBaloons\baloonsState.cs" />
+    <Compile Include="Telerik.PoppingBaloons\BaloonsGame.cs" />
     <Compile Include="Telerik.PoppingBaloons\GameUI.cs" />
     <Compile Include="Telerik.PoppingBaloons\GameExecution.cs" />
   </ItemGroup>
