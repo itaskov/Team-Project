@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Telerik.PoppingBaloons
 {
-    class GameState
+    class GameUI
     {
         baloonsState __st;
         List<Tuple<string, int>> scoreboard;
 
-        public GameState()
+        public GameUI()
         {
             __st = new baloonsState();
 
@@ -18,7 +18,7 @@ namespace Telerik.PoppingBaloons
 
             scoreboard = new List<Tuple<string, int>>();
         }
-        ~GameState() { }
+        ~GameUI() { }
         void displayScoreboard()
         {
             if (scoreboard.Count == 0)
